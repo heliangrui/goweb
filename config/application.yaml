@@ -1,0 +1,20 @@
+server:
+  name: goWeb
+  port: 8837
+
+postgres:
+  hostname: 127.0.0.1
+  port: 5432
+  username: root
+  password: root
+  database: domeDataBase
+mqtt:
+  broker: tcp://127.0.0.1:9302
+  clientId: domeClientId
+  username: root
+  password: root
+login-security:
+  cookie-time: 1800000
+  long-time: 7200000
+
+
